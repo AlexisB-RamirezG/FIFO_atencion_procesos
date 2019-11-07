@@ -8,8 +8,12 @@ class Main {
     }
 
     initializeQueue() {
-        console.log("Hola");
         this._newQueue.startQueue();
+        this._printAtributes();
+    }
+
+    _printAtributes() {
+        console.log(this._newQueue.atributesString);
     }
 }
 
